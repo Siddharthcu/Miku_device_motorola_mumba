@@ -13,6 +13,9 @@ $(call inherit-product, device/motorola/mumba/device.mk)
 # Inherit some common Miku stuff.
 $(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
+# Maintainer
+MIKU_MASTER := Siddharth(⁠≧⁠▽⁠≦⁠)
+
 PRODUCT_NAME := miku_mumba
 PRODUCT_DEVICE := mumba
 PRODUCT_MANUFACTURER := motorola
